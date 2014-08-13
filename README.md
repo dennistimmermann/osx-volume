@@ -16,9 +16,7 @@ Get and set the volume of your Mac
     })
 
 ### volume.set(vaule, [callback])
-    volume.set(50) {
-        //volume set to 50%
-    })
+    volume.set(50)
 
     volume.set(69, function(error) {
         console.log('an error occured:', error)
